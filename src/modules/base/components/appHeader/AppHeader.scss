@@ -1,0 +1,29 @@
+.app-header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+
+    h2, h4{
+        margin: 0;
+    }
+
+    &__logo{
+        cursor: pointer;
+    }
+
+    &__icon-wrapper{
+        width: 1.5rem !important;
+        background: gray;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__menu{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        cursor: pointer;
+    }
+}
