@@ -20,7 +20,7 @@ const AppHeader = () => {
         <Button
           className="app-header__icon-wrapper"
           shape="round"
-          icon={<SearchIcon size={12} strokeWidth={4} color="#fff" />}
+          icon={<SearchIcon size={14} strokeWidth={4} color="#fff" />}
         ></Button>
       </div>
     </div>
